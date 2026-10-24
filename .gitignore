@@ -1,0 +1,34 @@
+# .NET and IDE output
+**/bin/
+**/obj/
+**/.vs/
+**/TestResults/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Local build and restore caches
+.dotnet-home/
+Source/artifacts/
+Source/offline-feed/
+Source/schemas-local/
+artifacts/
+
+# Distributed binaries belong in GitHub Releases, not source history
+Windows-x64/
+*.exe
+*.dll
+*.pdb
+*.nupkg
+*.zip
+
+# Local widget data, if copied into the workspace
+**/preferences.json
+**/usage-cache.json
+**/preferences.json.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
